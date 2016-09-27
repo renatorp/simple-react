@@ -72,3 +72,9 @@ Algumas fontes para aprendizado:
  - Conferências: https://facebook.github.io/react/docs/conferences.html
  - Vídeos: https://facebook.github.io/react/docs/videos.html
 
+Para executar projeto:
+
+```
+cd simple-react/
+npm install
+npm start
