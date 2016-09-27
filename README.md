@@ -43,6 +43,8 @@ O React também possui algumas desvantagens. Primeiramente, sua curva de aprendi
 
 Para uma melhor experiência de uso do React, existem algumas boas práticas que alguns artigos recomendam que sejam seguindas. Entre elas está o uso de bibliotecas para gerenciar o estado da aplicação e disparar renderização quando necessário, como é o caso do Flux e do Redux. Outra prática é a utilização de objetos imutáveis, de forma a melhorar a performance na redenrização. Mais uma é a utilização de classe do ES2015 ao invés das chamada a createClass. Uma outra boa prática é a utilização de bundlers como o Webpack e o Browserify.
 
+Concluindo, existem diversos frameworks e bibliotecas disponíveis no mercado que se propõem a atingir um objetivo semelhante ao do React. Sem dúvida, o React possui características que o tornam um candidado forte a ser utilizado na construção de aplicações em javascript. No entanto, cabe ao desenvolvedor ou arquiteto responsável decidir se é realmente uma escolha viável utilzá-lo. No últimos anos, têm crescido bastante a quantidade de opções de ferramentas disponíveis. Em um determinado momento, é necessário decidir entre maturidade e inovação. Acredito que o React ainda vai evoluir muito, mas nada impede o surgimento de uma nova tecnologia que faça com que sua evolução seja descontinuada. Por isso, é recomendado que sua utilização seja precedida de uma profunda pesquisa de ferramentas utilizadas pelo mercado.
+
 Algumas tecnologias relacionadas com o React são:
 
 1. ECMAScript 6: Versão da especificação do Javascript que pode ser utilizada em uma aplicação com React;
