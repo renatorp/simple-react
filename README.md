@@ -24,7 +24,7 @@ Além da forma eficiente com que o React atualiza o HTML, ele permite uma separa
 
 Para incrementar a legibilidade do código, o React permite a utilização do JSX. O JSX é uma extensão da linguagem Javascript que é similar ao XML. Com ele, é possível utilizar a sintaxe XML dentro do Javascript. Não é obrigatório o uso do JSX, pode-s utilizar o código Javascript puro. No entanto, recomenda-se utilizar o JSX	 pela sua sintaxe concisa e familiar para definir estruturas  de árvore com atributos. Árvores grandes em XML são mais fáceis de ler do que chamadas de função e objetos literais. Além disso, o XML é mais familiar para desenvolvedores casuais, como é o caso de web designers.
 
-```
+```javascript
 // Exemplo de criação de componente utilização função:
 var app = React.createElement( 
   Nav, 
@@ -32,7 +32,7 @@ var app = React.createElement(
   React.createElement(Profile, null, "click") 
 );
 ```
-```
+```javascript
 // Exemplo de criação do mesmo componente anterior utilizando JSX:
 var app = <Nav color="blue"><Profile>click</Profile></Nav>;
 ```
